@@ -14,7 +14,7 @@ public class Application {
 
 	public void greet() {
 		List<String> greetings = new ArrayList<>();
-		greetings.add("Hello");
+		greetings.add("Hello World");
 
 		for (String greeting : greetings) {
 			System.out.println("Greeting :" + greeting);
