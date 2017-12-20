@@ -44,4 +44,10 @@ public class ApplicationTest {
         int count = app.countWords("test");
         assertTrue(count == 1);
     }
+    
+    @Test
+    public void testWordCountDouble() {
+        int count = app.countWords("test");
+        assertTrue(count != 8);
+    }
 }
